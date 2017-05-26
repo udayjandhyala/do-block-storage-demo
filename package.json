@@ -1,0 +1,16 @@
+{
+  "name": "DemoDockerApp",
+  "version": "1.0.0",
+  "description": "This WebApp is using Node.js as a platform on Docker",
+  "author": "Uday Jandhyala <udayjandhyala@gmail.com>",
+  "main": "demo-web-app.js",
+  "scripts": {
+    "start": "node demo-web-app.js"
+  },
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "express": "^4.13.3",
+    "mongoose": "^4.5.10",
+    "request": "^2.74.0"
+  }
+}
